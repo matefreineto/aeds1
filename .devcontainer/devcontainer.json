@@ -1,0 +1,33 @@
+{
+  "name": "AEDS-1 - Ambiente C",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.cpptools"
+      ],
+      "settings": {
+        // Desativa sugestões automáticas e popups do editor
+        "editor.quickSuggestions": false,
+        "editor.suggestOnTriggerCharacters": false,
+        "editor.acceptSuggestionOnEnter": "off",
+        "editor.wordBasedSuggestions": "off",
+        "editor.snippetSuggestions": "none",
+
+        // Desativa especificamente o GitHub Copilot Inline (Ghost Text)
+        "github.copilot.enable": {
+          "*": false
+        },
+        "github.copilot.editor.enableAutoCompletions": false,
+
+        // Desativa o IntelliSense agressivo da extensão C/C++ (para não ficar completando funções)
+        "C_Cpp.autocomplete": "Disabled",
+        "C_Cpp.suggestSnippets": false        
+
+      }
+    }
+  },
+  "postCreateCommand": "gcc --version"
+}
