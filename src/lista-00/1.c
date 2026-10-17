@@ -20,6 +20,7 @@ int main() {
     printf("Digite o segundo numero real: ");
     scanf("%f", &num2);
     
+    
     // 2. Processamento
     soma = num1 + num2;
     
