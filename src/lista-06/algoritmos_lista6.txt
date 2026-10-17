@@ -1,0 +1,14 @@
+LISTA 6 - TEXTO ESTRUTURADO
+
+1. Chamar a funcao iterativa, que repete de 1 a 5. Chamar a recursiva com 1; escrever o valor e chamar com valor+1 ate ultrapassar 5.
+2. Iterativa: percorrer 1..5 e depois 5..1. Recursiva: escrever na entrada da chamada e novamente no retorno da recursao.
+3. Ler os limites. Se estiverem invertidos, troca-los. Executar a ida e a volta nas abordagens iterativa e recursiva.
+4. Ler N natural. Iterativa: repetir de N ate 0. Recursiva: escrever N e chamar com N-1; parar quando N for negativo.
+5. Ler n e m e ordena-los. Iterativa: acumular cada inteiro. Recursiva: retornar n + soma(n+1,m), com zero quando n>m.
+6. Ler base e expoente natural. Iterativa: multiplicar expoente vezes. Recursiva: base * potencia(base,expoente-1); expoente zero retorna 1.
+7. Ler N de 0 a 20. Iterativa: produto de 2 a N. Recursiva: N*fatorial(N-1); 0 e 1 retornam 1.
+8. Ler natural. Inverter iterativa e recursivamente. Comparar cada resultado com o original.
+9. Ler k. Iterativa: conservar os dois termos anteriores. Recursiva: F(k)=F(k-1)+F(k-2), com F(0)=0 e F(1)=1.
+10. Ler natural. Inverter, somar digitos e testar potencia de 2 com funcoes iterativas e recursivas independentes.
+11. Ler natural. Procurar divisor de 2 ate a raiz aproximada, usando repeticao ou chamadas recursivas.
+12. Ler discos. Mover n-1 da origem ao temporario, mover um da origem ao destino e mover n-1 do temporario ao destino.
